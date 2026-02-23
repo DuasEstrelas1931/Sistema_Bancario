@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71051858-65A1-49BB-80D9-4A4D4171FFFE}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\contabancaria\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71051858-65A1-49BB-80D9-4A4D4171FFFE}|Sistema_Bancario\\Sistema_Bancario.csproj|solutionrelative:sistema_bancario\\contabancaria\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71051858-65A1-49BB-80D9-4A4D4171FFFE}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71051858-65A1-49BB-80D9-4A4D4171FFFE}|Sistema_Bancario\\Sistema_Bancario.csproj|solutionrelative:sistema_bancario\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71051858-65A1-49BB-80D9-4A4D4171FFFE}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71051858-65A1-49BB-80D9-4A4D4171FFFE}|Sistema_Bancario\\Sistema_Bancario.csproj|solutionrelative:sistema_bancario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Banco.cs",
+              "RelativeDocumentMoniker": "Sistema_Bancario\\Banco.cs",
+              "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Banco.cs*",
+              "RelativeToolTip": "Sistema_Bancario\\Banco.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:13:51.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\ContaBancaria\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "Sistema_Bancario\\ContaBancaria\\ContaBancaria.cs",
+              "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\ContaBancaria\\ContaBancaria.cs*",
+              "RelativeToolTip": "Sistema_Bancario\\ContaBancaria\\ContaBancaria.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:13:06.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Program.cs",
+              "RelativeDocumentMoniker": "Sistema_Bancario\\Program.cs",
+              "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Program.cs",
+              "RelativeToolTip": "Sistema_Bancario\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T11:58:27.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
