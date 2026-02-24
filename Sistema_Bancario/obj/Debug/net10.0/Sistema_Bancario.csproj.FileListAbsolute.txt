@@ -12,3 +12,4 @@ C:\Users\014.449880\source\repos\Sistema_Bancario\Sistema_Bancario\obj\Debug\net
 C:\Users\014.449880\source\repos\Sistema_Bancario\Sistema_Bancario\obj\Debug\net10.0\Sistema_Bancario.pdb
 C:\Users\014.449880\source\repos\Sistema_Bancario\Sistema_Bancario\obj\Debug\net10.0\Sistema_Bancario.genruntimeconfig.cache
 C:\Users\014.449880\source\repos\Sistema_Bancario\Sistema_Bancario\obj\Debug\net10.0\ref\Sistema_Bancario.dll
+C:\Users\014.449880\source\repos\Sistema_Bancario\Sistema_Bancario\obj\Debug\net10.0\Sistema_Bancario.sourcelink.json

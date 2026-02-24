@@ -1,4 +1,6 @@
-﻿public class ContaBancaria
+﻿using System;
+
+public class ContaBancaria
 {
     //Propriedades
     public string NumeroConta { get; private set; }
@@ -66,8 +68,66 @@
         return true;
     }
 
+    public bool Transferir(ContaBancaria contaDestino, decimal valor)
+    { 
+        if (!Ativa || !contaDestino.Ativa)
+        {
+            Console.WriteLine("Uma das contas está inativa. Operação não permitida.");
+            return false;
+        }
+        if (Sacar(valor))
+        {
+            contaDestino.Depositar(valor);
+            Console.WriteLine($"Transferência de {valor:C} pata {contaDestino.Titular} realizada!");
+        }
+        else
+        {
+            Console.WriteLine("Transferência falhou.");
+            return false;
+        }
+        return true;
+    }
+
     public void ExibirSaldo()
     {
         Console.WriteLine($"Saldo atual: {Saldo:C}");
     }
+
+    public void ExibirDadosDaConta()
+    {
+        Console.WriteLine("\n=== Dados da Conta ===");
+        Console.WriteLine($"Número da Conta: {NumeroConta}");
+        Console.WriteLine($"Titular: {Titular}");
+        Console.WriteLine($"Saldo: {Saldo:C}");
+        Console.WriteLine($"Data de Abertura: {DataAbertura:d}");
+        Console.WriteLine($"Status: {(Ativa ? "Ativa" : "Inativa")}");
+    }
+
+    public void EncerrarConta()
+    {
+        if (Saldo == 0)
+        { 
+            Ativa = false;
+            Console.WriteLine($"Conta de {Titular} encerrada.");
+        }
+        else
+        {
+             Console.WriteLine("Conta não pode ser encerrada. Saldo deve ser diferente de zero.");
+
+        }
+    }
+
+    public void AtivarConta()
+    {
+        if (!Ativa)
+        {
+            Ativa = true;
+            Console.WriteLine($"Conta de {Titular} ativada.");
+        }
+        else
+        {
+            Console.WriteLine("Conta já está ativa.");
+        }
+    }
+
 }
