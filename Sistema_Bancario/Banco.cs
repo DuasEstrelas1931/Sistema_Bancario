@@ -17,16 +17,15 @@ class Banco
         Console.WriteLine($"Conta de {conta.Titular} adicionada ao banco {Nome}");
     }
 
-    public void BuscarConta(string numeroDaConta)
+    public ContaBancaria BuscarConta(string numeroDaConta)
     {
         foreach (var conta in contas)
         {
             if (conta.NumeroConta == numeroDaConta)
-            {
-                Console.WriteLine($"Conta encontrada: {conta.Titular} - Saldo: {conta.Saldo:C}");
-                return;
-            }
+                return conta;                                
+          
         }
+        return null;
     }
 
     public void ListarContas()

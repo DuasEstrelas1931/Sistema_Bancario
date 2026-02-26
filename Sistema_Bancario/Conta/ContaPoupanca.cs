@@ -3,8 +3,8 @@ public class ContaPoupanca : ContaBancaria
 {
     public decimal TaxaDeRendimento { get; set; }
 
-    public ContaPoupanca(string numeroConta, string titular, decimal depositoInicial = 0, decimal taxaDeRendimento = 0.05m)
-        : base(numeroConta, titular, depositoInicial)
+    public ContaPoupanca(string numeroDaConta, string titular, decimal depositoInicial = 0, decimal taxaDeRendimento = 0.05m)
+        : base(numeroDaConta, titular, depositoInicial)
     {
         TaxaDeRendimento = taxaDeRendimento;
         Console.WriteLine($"Conta poupança criada com taxa de rendimento de {taxaDeRendimento:P} ao mês");

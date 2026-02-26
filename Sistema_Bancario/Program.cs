@@ -1,7 +1,7 @@
 ﻿using System;
 class Program
 {
-    static void Main(string[] args)
+    static void Principal(string[] args)
     {
         Console.WriteLine("=== Sintema Bancario RADS ===\n");
         // Criando o Banco
@@ -29,11 +29,22 @@ class Program
         Console.WriteLine($"\n===Operação na conta de {conta2.Titular} ===");
         conta2.AplicarRendimento();
         conta2.ExibirDadosDaConta();
-      
 
+        //Transferência entre contas
+        Console.WriteLine("\n ===Transferência===");
+        conta1.Transferir(conta3, 300);
 
+        //Listar todas as contas do banco
+        banco.ListarContas();
 
+        //Calcular o patrimônio do banco
+        Console.WriteLine($"\nPatrimônio total do banco {banco.CalcularPatrimonial():C}");
+
+        //Buscar conta específica
+        Console.WriteLine("\nBuscar conta específica===");
+        Console.Write("Digite o número da conta: ");
+        string numeroContaBusca = Console.ReadLine();
+       
 
     }
-
 }

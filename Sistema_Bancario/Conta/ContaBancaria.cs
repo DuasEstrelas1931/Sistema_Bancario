@@ -10,15 +10,15 @@ public class ContaBancaria
     public bool Ativa { get; private set; }
 
     // Construtor
-    public ContaBancaria(string numeroConta, string titular, decimal depositoInicial = 0)
+    public ContaBancaria(string numeroDaConta, string titular, decimal depositoInicial = 0)
     {
-        NumeroConta = numeroConta;
+        NumeroConta = numeroDaConta;
         Titular = titular;
         Saldo = depositoInicial;
         DataAbertura = DateTime.Now;
         Ativa = true;
 
-        Console.WriteLine($"Conta criada com sucesso pra {Titular}!\n");
+        Console.WriteLine($"\nConta criada com sucesso pra {Titular}!\n");
     }
 
     public void Depositar(decimal valor)
@@ -46,7 +46,7 @@ public class ContaBancaria
     {
         if (!Ativa)
         {
-            Console.WriteLine("Conta inativa. Operçõ não permitida.");
+            Console.WriteLine("Conta inativa. Operção não permitida.");
             return false;
         }
 

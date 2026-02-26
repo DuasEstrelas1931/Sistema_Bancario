@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\contabancaria\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|solutionrelative:sistema_bancario\\contabancaria\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\menuinterativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|solutionrelative:sistema_bancario\\menuinterativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|solutionrelative:sistema_bancario\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\conta\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|solutionrelative:sistema_bancario\\conta\\contabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\conta\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|solutionrelative:sistema_bancario\\conta\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F598D9F-4634-91E7-0ACE-966FBA40175E}|Sistema_Bancario\\Sistema_Bancario.csproj|c:\\users\\014.449880\\source\\repos\\sistema_bancario\\sistema_bancario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuInterativo.cs",
+              "DocumentMoniker": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\MenuInterativo.cs",
+              "RelativeDocumentMoniker": "Sistema_Bancario\\MenuInterativo.cs",
+              "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\MenuInterativo.cs",
+              "RelativeToolTip": "Sistema_Bancario\\MenuInterativo.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowGEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T12:42:14.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContaPoupanca.cs",
+              "DocumentMoniker": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Conta\\ContaPoupanca.cs",
+              "RelativeDocumentMoniker": "Sistema_Bancario\\Conta\\ContaPoupanca.cs",
+              "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Conta\\ContaPoupanca.cs",
+              "RelativeToolTip": "Sistema_Bancario\\Conta\\ContaPoupanca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T13:49:06.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Conta\\ContaBancaria.cs",
+              "RelativeDocumentMoniker": "Sistema_Bancario\\Conta\\ContaBancaria.cs",
+              "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Conta\\ContaBancaria.cs",
+              "RelativeToolTip": "Sistema_Bancario\\Conta\\ContaBancaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:13:06.038Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,38 +79,23 @@
               "RelativeDocumentMoniker": "Sistema_Bancario\\Banco.cs",
               "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Banco.cs",
               "RelativeToolTip": "Sistema_Bancario\\Banco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T13:13:51.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ContaBancaria.cs",
-              "DocumentMoniker": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\ContaBancaria\\ContaBancaria.cs",
-              "RelativeDocumentMoniker": "Sistema_Bancario\\ContaBancaria\\ContaBancaria.cs",
-              "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\ContaBancaria\\ContaBancaria.cs",
-              "RelativeToolTip": "Sistema_Bancario\\ContaBancaria\\ContaBancaria.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T12:13:06.038Z",
+              "WhenOpened": "2026-02-23T13:13:51.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Program.cs",
               "RelativeDocumentMoniker": "Sistema_Bancario\\Program.cs",
               "ToolTip": "C:\\Users\\014.449880\\source\\repos\\Sistema_Bancario\\Sistema_Bancario\\Program.cs",
               "RelativeToolTip": "Sistema_Bancario\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T11:58:27.046Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2026-02-23T11:58:27.046Z",
+              "EditorCaption": ""
             }
           ]
         }
